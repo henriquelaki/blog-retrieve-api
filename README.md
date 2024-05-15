@@ -20,13 +20,15 @@ This project is a simple RESTful API that returns a detailed list of blog posts,
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/blog-api.git
+    git clone https://github.com/henriquelaki/blog-retrieve-api.git
+    or
+    git clone git://github.com/henriquelaki/blog-retrieve-api.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd blog-api
+    cd blog-retrieve-api
     ```
 
 3. Install the dependencies:
@@ -70,7 +72,7 @@ This project is a simple RESTful API that returns a detailed list of blog posts,
 - **Example Request**:
 
     ```bash
-    GET /posts?start=10&size=10
+    curl -X GET http://localhost:3000/posts?start=10&size=10
     ```
 
 - **Example Response**:
