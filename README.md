@@ -1,4 +1,4 @@
-# Blog API
+# Blog Retrieve API
 
 This project is a simple RESTful API that returns a detailed list of blog posts, structured as a JSON response. The API fetches blog entries, authors, and comments from external endpoints and allows users to request a paginated set of blog posts.
 
